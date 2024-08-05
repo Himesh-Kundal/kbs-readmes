@@ -26,7 +26,8 @@ In decentralized finance (DeFi), a liquidity pool is a smart contract-based pool
 
 ### Constant Product Formula
 
-![image](https://github.com/user-attachments/assets/dcdb7c95-9838-4f71-b7de-5d6e4e81d155)
+![image](https://github.com/user-attachments/assets/46025d6e-8e92-482c-b443-84c1b5dc83b1)
+
 
 Automated Market Makers (AMMs), commonly used with liquidity pools, employ a mathematical formula to determine token prices and maintain liquidity. One of the most common formulas applied is the constant product formula, which is given as follows:
 \[ X * Y = K \]
