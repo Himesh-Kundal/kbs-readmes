@@ -17,12 +17,17 @@ Users provide funds to these pools to enable trading. In return, they earn a sha
 
 In traditional markets and centralized finances, an order book is used. It is a list of buy and sell orders for a specific security or financial instrument, organized by price level. Traders and investors use it to see the current demand and supply for that security. In decentralized finance (DeFi), an Automated Market Maker (AMM) is a system that enables users to trade cryptocurrencies directly with a smart contract rather than with other users. In AMM-based exchanges, there are no direct buyers and sellers. Instead, users trade against a pool of tokens.
 
+![AMM.jpeg](assets/AMM.jpg)
+
 ### Liquidity Pools
 
 In decentralized finance (DeFi), a liquidity pool is a smart contract-based pool of funds locked in by liquidity providers (LPs). These pools are used by Automated Market Makers (AMMs) to facilitate decentralized trading without the need for traditional order books. Each liquidity pool contains two tokens, such as ETH and DAI (approx 1 USD), in a specific ratio.
 
 ### Constant Product Formula
 
+<div style="text-align:center;">
+    <img src="assets/ConstantProductFormula.jpeg" alt="ConstantProductFormula.jpeg" width="600px" style>
+</div>
 Automated Market Makers (AMMs), commonly used with liquidity pools, employ a mathematical formula to determine token prices and maintain liquidity. One of the most common formulas applied is the constant product formula, which is given as follows:
 \[ X * Y = K \]
 where \( X \) and \( Y \) are the quantities of the two tokens in the pool, and \( K \) is a constant. This formula ensures that the product of the quantities of the two tokens remains constant. As a result, when one token is bought (increasing its quantity), the other token’s quantity decreases proportionally, adjusting the price accordingly.
@@ -210,6 +215,8 @@ function removeLiquidity(uint256 _tokenAmount, uint256 _ethAmount) external only
     emit LiquidityRemoved(msg.sender, _tokenAmount, _ethAmount);
 }
 ```
+
+<img src="assets/Architecture.png" alt="Architecture.png">
 
 ## Full Contract Code
 
