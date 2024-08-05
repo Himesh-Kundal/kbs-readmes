@@ -17,7 +17,8 @@ Users provide funds to these pools to enable trading. In return, they earn a sha
 
 In traditional markets and centralized finances, an order book is used. It is a list of buy and sell orders for a specific security or financial instrument, organized by price level. Traders and investors use it to see the current demand and supply for that security. In decentralized finance (DeFi), an Automated Market Maker (AMM) is a system that enables users to trade cryptocurrencies directly with a smart contract rather than with other users. In AMM-based exchanges, there are no direct buyers and sellers. Instead, users trade against a pool of tokens.
 
-![AMM.jpeg](assets/AMM.jpg)
+![image](https://github.com/user-attachments/assets/a0dcb622-4ded-4c82-9372-3ee834a37d3c)
+
 
 ### Liquidity Pools
 
@@ -25,9 +26,8 @@ In decentralized finance (DeFi), a liquidity pool is a smart contract-based pool
 
 ### Constant Product Formula
 
-<div style="text-align:center;">
-    <img src="assets/ConstantProductFormula.jpeg" alt="ConstantProductFormula.jpeg" width="600px" style>
-</div>
+![image](https://github.com/user-attachments/assets/dcdb7c95-9838-4f71-b7de-5d6e4e81d155)
+
 Automated Market Makers (AMMs), commonly used with liquidity pools, employ a mathematical formula to determine token prices and maintain liquidity. One of the most common formulas applied is the constant product formula, which is given as follows:
 \[ X * Y = K \]
 where \( X \) and \( Y \) are the quantities of the two tokens in the pool, and \( K \) is a constant. This formula ensures that the product of the quantities of the two tokens remains constant. As a result, when one token is bought (increasing its quantity), the other token’s quantity decreases proportionally, adjusting the price accordingly.
@@ -216,7 +216,7 @@ function removeLiquidity(uint256 _tokenAmount, uint256 _ethAmount) external only
 }
 ```
 
-<img src="assets/Architecture.png" alt="Architecture.png">
+![Architecture](https://github.com/user-attachments/assets/35a95e89-363c-43a4-8743-98f7b3ea6ef7)
 
 ## Full Contract Code
 
