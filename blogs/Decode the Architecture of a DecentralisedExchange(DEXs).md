@@ -1,24 +1,30 @@
-# Decentralized Exchanges (DEXs)
+# **Decode the Architecture of Decentralized Exchanges (DEX)**
+### Author(s)
+[Shriya Sinha](https://www.linkedin.com/in/shriya-sinha-2022a2298/), [Himesh Kundal](https://www.linkedin.com/in/himesh-kundal-140059287/), [Ankana Pari](https://www.linkedin.com/in/ankana-p-737158280/)
 
+
+### **What are Decentralized Exchanges (DEXs)?**
 A decentralized exchange (DEX) is a type of cryptocurrency exchange where users can trade directly with each other without needing a middleman or central authority to facilitate the transactions. This exchange is based on blockchain technology and smart contracts, which automatically execute trades based on predefined rules.
 
 Let us now understand the components and working of DEXs:
 
-### Direct Trading
+### **Direct Trading**
+
 Users trade directly from their wallets. When you want to buy or sell a cryptocurrency, you connect your wallet to the DEX platform (like Uniswap, Sushiswap, Pancakeswap, etc.) and trade with other users.
 
-### Smart Contracts
+### **Smart Contracts**
+
 These are self-executing contracts with the terms of the trade written into code. They automatically handle the transactions, ensuring that both parties complete the trades as agreed upon.
 
-### Liquidity Pools
+### **Liquidity Pools**
+
 Users provide funds to these pools to enable trading. In return, they earn a share of the trading fees or receive other incentives.
 
-## Automated Market Makers (AMMs)
+## **Automated Market Makers (AMMs)**
 
 In traditional markets and centralized finances, an order book is used. It is a list of buy and sell orders for a specific security or financial instrument, organized by price level. Traders and investors use it to see the current demand and supply for that security. In decentralized finance (DeFi), an Automated Market Maker (AMM) is a system that enables users to trade cryptocurrencies directly with a smart contract rather than with other users. In AMM-based exchanges, there are no direct buyers and sellers. Instead, users trade against a pool of tokens.
 
 ![image](https://github.com/user-attachments/assets/a0dcb622-4ded-4c82-9372-3ee834a37d3c)
-
 
 ### Liquidity Pools
 
@@ -47,6 +53,7 @@ where \( X \) and \( Y \) are the quantities of the two tokens in the pool, and 
 
 # Example of Liquidity Pool made in Solidity with ERC20 Token.
 This Solidity smart contract implements an ERC20 token with a simple liquidity pool. Users can add liquidity, remove liquidity, and swap between ETH and tokens. The contract uses the SafeMath library to ensure safe arithmetic operations.
+
 
 ## Contract Overview
 
