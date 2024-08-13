@@ -1,6 +1,6 @@
 # Blockchain Workshop with Avalanche
 
-![](https://firebasestorage.googleapis.com/v0/b/kbs-website-3525a.appspot.com/o/2.png?alt=media\&token=d88499de-b2ba-494a-a2b5-73d98dddbdfb)
+<img width="527" height="658" src="https://firebasestorage.googleapis.com/v0/b/kbs-website-3525a.appspot.com/o/2.png?alt=media&token=d88499de-b2ba-494a-a2b5-73d98dddbdfb" />
 
 ### Details:
 
@@ -33,6 +33,5 @@ Whether you're a beginner or an enthusiast, this workshop promises insights into
 ### Register here: [Registration URL](https://docs.google.com/forms/d/e/1FAIpQLSeNBp9ZwLxnL95mlw3C_gLyH51_gt-RJ5kG5VP9Vvtyd-pzJw/viewform "Regestration URL")
 
 ## Event Memories:
-![image](https://firebasestorage.googleapis.com/v0/b/kbs-website-3525a.appspot.com/o/events%2Fkbs.png?alt=media&token=30f017df-a1db-4ddd-84d0-12d3f7225596)
 
-
+<img alt="image" width="529" height="793" src="https://github.com/user-attachments/assets/a98a59ac-07ac-4d83-a476-9ddec8200a09" />
