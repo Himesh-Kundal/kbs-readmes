@@ -1,7 +1,7 @@
 # Nibiru 101 Workshop
 &#x20;
 
-<img width="527" height="527" src="https://firebasestorage.googleapis.com/v0/b/kbs-website-3525a.appspot.com/o/events%2Fnibiru%20poster.png?alt=media&token=ca92d1a9-8000-4f38-8797-b139f21c1890" />
+<img height="527" width="527" src="https://firebasestorage.googleapis.com/v0/b/kbs-website-3525a.appspot.com/o/events%2FNibiru%20poster.png?alt=media&token=b0ecb6c2-c7ef-493a-8fed-17132570cef3" />
 &#x20;
 
 ### Nibiru 101: A Beginner's Guide to Nibiru Chain
